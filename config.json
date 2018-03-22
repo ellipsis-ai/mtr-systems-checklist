@@ -1,0 +1,7 @@
+{
+  "name" : "Checklist",
+  "exportId" : "5mfaSItqSe-0iKnHG6IJOg",
+  "requiredAWSConfigs" : [ ],
+  "requiredOAuth2ApiConfigs" : [ ],
+  "requiredSimpleTokenApis" : [ ]
+}

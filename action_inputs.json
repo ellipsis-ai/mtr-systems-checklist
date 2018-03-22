@@ -1,0 +1,51 @@
+[ {
+  "exportId" : "Eeab7WPpSpuFp8_YPgT10g",
+  "name" : "channels",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "In which channels would you like to announce the results? (comma separated)",
+  "isSavedForTeam" : true,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "L2XFMYJZREKpemgdYTNWkg",
+  "name" : "gutters",
+  "paramType" : {
+    "exportId" : "Yes/No",
+    "name" : "Yes/No"
+  },
+  "question" : "Are all gutters draining?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "OmvrsnMZQ6WK4J2MXTiq6g",
+  "name" : "quickConnects",
+  "paramType" : {
+    "exportId" : "Yes/No",
+    "name" : "Yes/No"
+  },
+  "question" : "Are all quick connects connected?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "r48UjchLRxeUmS_kGCEw0w",
+  "name" : "summary",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "What is the value for `summary`?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "wMUcXT6ARBy7Nb7jTz9hgw",
+  "name" : "emitters",
+  "paramType" : {
+    "exportId" : "Yes/No",
+    "name" : "Yes/No"
+  },
+  "question" : "Are all emitters flowing?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+} ]
