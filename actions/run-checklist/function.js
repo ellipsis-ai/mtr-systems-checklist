@@ -11,7 +11,7 @@ ${checkFor(quickConnects)}   Quick connects connected
 ${checkFor(gutters)}   Gutters draining
 `;
 
-const channels = ["testing123", "test-equip-checklist"].filter(ea => ea != channel);
+const channels = ["testing123", "test-mtr-checklist"].filter(ea => ea != channel);
 api.say({ message: summary }).then(res => {
   Promise.all(channels.map(postSummaryTo)).then(ellipsis.noResponse);                                 
 });
