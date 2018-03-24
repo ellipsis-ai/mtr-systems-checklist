@@ -1,12 +1,12 @@
 [ {
-  "exportId" : "Eeab7WPpSpuFp8_YPgT10g",
-  "name" : "channels",
+  "exportId" : "G0nnwRctRiyVc1IpX5RxfQ",
+  "name" : "nutrientTankWaterLevel",
   "paramType" : {
     "exportId" : "Text",
     "name" : "Text"
   },
-  "question" : "In which channels would you like to announce the results? (comma separated)",
-  "isSavedForTeam" : true,
+  "question" : "Is the nutrient tank water level > 100gal?",
+  "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
   "exportId" : "L2XFMYJZREKpemgdYTNWkg",
@@ -26,6 +26,16 @@
     "name" : "Yes/No"
   },
   "question" : "Are all quick connects connected?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "YIHguIglTFSBRApceh5B-A",
+  "name" : "lightsOnAuto",
+  "paramType" : {
+    "exportId" : "Text",
+    "name" : "Text"
+  },
+  "question" : "Are the lights are on auto (Lights on: 10AM-4AM)?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
