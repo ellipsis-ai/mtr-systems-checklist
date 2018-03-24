@@ -1,4 +1,4 @@
-function(emitters, quickConnects, gutters, ellipsis) {
+function(emitters, quickConnects, gutters, lightsOnAuto, nutrientTankWaterLevel, ellipsis) {
   const EllipsisApi = require('ellipsis-api');
 const api = new EllipsisApi(ellipsis);
 
@@ -9,9 +9,11 @@ Checklist for channel <#${channel}> has been completed by <@${user}>:
 ${checkFor(emitters)}   Emitters flowing
 ${checkFor(quickConnects)}   Quick connects connected
 ${checkFor(gutters)}   Gutters draining
+${checkFor(lightsOnAuto)}   Lights on auto
+${checkFor(nutrientTankWaterLevel)}   Nutrient tank water level > 100gal
 `;
 
-const channels = ["testing123", "test-mtr-checklist"].filter(ea => ea != channel);
+const channels = ["farm-ops-announce"].filter(ea => ea != channel);
 api.say({ message: summary }).then(res => {
   Promise.all(channels.map(postSummaryTo)).then(ellipsis.noResponse);                                 
 });
