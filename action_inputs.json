@@ -2,8 +2,8 @@
   "exportId" : "G0nnwRctRiyVc1IpX5RxfQ",
   "name" : "nutrientTankWaterLevel",
   "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
+    "exportId" : "Yes/No",
+    "name" : "Yes/No"
   },
   "question" : "Is the nutrient tank water level > 100gal?",
   "isSavedForTeam" : false,
@@ -32,8 +32,8 @@
   "exportId" : "YIHguIglTFSBRApceh5B-A",
   "name" : "lightsOnAuto",
   "paramType" : {
-    "exportId" : "Text",
-    "name" : "Text"
+    "exportId" : "Yes/No",
+    "name" : "Yes/No"
   },
   "question" : "Are the lights are on auto (Lights on: 10AM-4AM)?",
   "isSavedForTeam" : false,
