@@ -1,4 +1,4 @@
-function(emitters, quickConnects, gutters, lightsOnAuto, nutrientTankWaterLevel, ellipsis) {
+function(emitters, quickConnects, gutters, lightsOnAuto, ecLevel, ellipsis) {
   const EllipsisApi = require('ellipsis-api');
 const api = new EllipsisApi(ellipsis);
 
@@ -10,7 +10,7 @@ ${checkFor(emitters)}   Emitters flowing
 ${checkFor(quickConnects)}   Quick connects connected
 ${checkFor(gutters)}   Gutters draining
 ${checkFor(lightsOnAuto)}   Lights on auto
-${checkFor(nutrientTankWaterLevel)}   Nutrient tank water level > 100gal
+${checkFor(ecLevel)}   EC level on Anderson meter < 2.25
 `;
 
 const channels = ["farm-ops-announce"].filter(ea => ea != channel);

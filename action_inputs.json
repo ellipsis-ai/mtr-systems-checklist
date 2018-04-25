@@ -1,11 +1,11 @@
 [ {
   "exportId" : "G0nnwRctRiyVc1IpX5RxfQ",
-  "name" : "nutrientTankWaterLevel",
+  "name" : "ecLevel",
   "paramType" : {
     "exportId" : "Yes/No",
     "name" : "Yes/No"
   },
-  "question" : "Is the nutrient tank water level > 100gal?",
+  "question" : "EC on Anderson meter < 2.25?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
