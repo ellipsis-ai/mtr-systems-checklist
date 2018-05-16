@@ -29,13 +29,33 @@
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
-  "exportId" : "YIHguIglTFSBRApceh5B-A",
-  "name" : "lightsOnAuto",
+  "exportId" : "WPmN0GB_R1KH4BGzeJ3_2w",
+  "name" : "sandFilterGauge",
   "paramType" : {
     "exportId" : "Yes/No",
     "name" : "Yes/No"
   },
-  "question" : "Are the lights are on auto (Lights on: 10AM-4AM)?",
+  "question" : "Are both red and green arrows on sand filter gauge at 10? If not, contact Facilities and submit a Fiix request.",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "YIHguIglTFSBRApceh5B-A",
+  "name" : "growLightsOnAuto",
+  "paramType" : {
+    "exportId" : "Yes/No",
+    "name" : "Yes/No"
+  },
+  "question" : "Are the grow lights are on auto (Lights on: 10AM-4AM)?",
+  "isSavedForTeam" : false,
+  "isSavedForUser" : false
+}, {
+  "exportId" : "eG_28DR1Sc-I4iJ-Y983Tg",
+  "name" : "overheadLights",
+  "paramType" : {
+    "exportId" : "Yes/No",
+    "name" : "Yes/No"
+  },
+  "question" : "Are the overhead room lights only on during production activities (M,W,F)?",
   "isSavedForTeam" : false,
   "isSavedForUser" : false
 }, {
