@@ -5,7 +5,7 @@ const api = new EllipsisApi(ellipsis);
 const channel = ellipsis.userInfo.messageInfo.channel;
 const user = ellipsis.userInfo.messageInfo.userId;
 const summary = `
-Checklist for channel <#${channel}> has been completed by <@${user}>:
+MTR checklist for channel <#${channel}> has been completed by <@${user}>:
 ${checkFor(emitters)}   Emitters flowing
 ${checkFor(quickConnects)}   Quick connects connected
 ${checkFor(gutters)}   Gutters draining
